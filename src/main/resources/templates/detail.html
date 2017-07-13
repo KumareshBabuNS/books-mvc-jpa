@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Book Detail</title>
+  </head>
+  
+  <body>
+  
+  	<h2 th:text="${book.title}">BOOK TITLE</h2>
+	<h4>by <span th:text="${book.author}">AUTHOR</span></h4>
+	<h4>ISBN: <span th:text="${book.isbn}">ISBN</span></h4>  
+  </body>
+</html>
